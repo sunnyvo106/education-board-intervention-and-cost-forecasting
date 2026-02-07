@@ -73,3 +73,38 @@ Business logic translation into analytical metrics
 Time-based analysis using academic calendars
 
 Power BI dashboard design for decision support
+
+⚠️ Assumptions & Limitations
+Assumptions
+
+Assessment results accurately reflect student academic performance at the time of testing
+
+Each assessment record represents a valid and complete assessment event for a student
+
+Students participate in all required assessments within each semester unless otherwise indicated in the data
+
+Intervention tier classification is based solely on assessment score thresholds and does not account for qualitative factors such as teacher observations or individual learning needs
+
+Teacher allocation rules (students per teacher per intervention tier) are fixed and consistently applied across all schools
+
+Testing and intervention cost values remain constant within the same academic period
+
+Teacher and cost forecasts for a semester are estimated using assessment outcomes from the previous semester
+
+Student enrollment is assumed to remain stable between consecutive semesters unless reflected in the data
+
+Limitations
+
+The analysis does not account for student movement between schools during an academic year
+
+External factors influencing student performance (e.g., socio-economic conditions, attendance, or special education needs) are not included
+
+Intervention effectiveness is not measured; the model estimates resource needs but does not evaluate outcomes of interventions
+
+Teacher availability, contract constraints, and workload variations are not considered in staffing forecasts
+
+Cost estimates do not include indirect expenses such as training, administration, or infrastructure
+
+Forecasting logic is rule-based and does not incorporate statistical or machine learning prediction models
+
+Results are sensitive to data quality; missing or inaccurate assessment records may impact counts and projections
